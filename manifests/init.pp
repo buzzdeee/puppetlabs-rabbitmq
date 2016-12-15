@@ -307,6 +307,6 @@ class rabbitmq(
     -> Class['::rabbitmq::management'] -> Anchor['rabbitmq::end']
 
   # Make sure the various providers have their requirements in place.
-  Class['::rabbitmq::install'] -> Rabbitmq_plugin<| |>
+  #Class['::rabbitmq::install'] -> Rabbitmq_plugin<| |>
 
 }
